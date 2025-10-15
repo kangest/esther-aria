@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "fetch": {
+      "command": "uvx",
+      "args": ["mcp-server-fetch"],
+      "env": {},
+      "disabled": true,
+      "autoApprove": []
+    },
+    "builder-mcp": {
+      "autoApprove": [
+        "ReadInternalWebsites",
+        "InternalSearch",
+        "BrazilBuildAnalyzerTool"
+      ],
+      "disabled": false,
+      "timeout": 60,
+      "type": "stdio",
+      "command": "builder-mcp",
+      "env": {}
+    }
+  }
+}
+

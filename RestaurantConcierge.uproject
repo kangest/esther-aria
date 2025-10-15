@@ -1,0 +1,53 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.3",
+	"Category": "",
+	"Description": "AI-powered restaurant concierge with MetaHuman and Amazon Bedrock Nova Sonic integration",
+	"Modules": [
+		{
+			"Name": "RestaurantConcierge",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UMG",
+				"HTTP",
+				"Json",
+				"JsonUtilities",
+				"AudioMixer",
+				"AudioCapture"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "MetaHuman",
+			"Enabled": true
+		},
+		{
+			"Name": "LiveLink",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioCapture",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioMixer",
+			"Enabled": true
+		},
+		{
+			"Name": "HTTP",
+			"Enabled": true
+		},
+		{
+			"Name": "WebBrowserWidget",
+			"Enabled": true
+		}
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Mac"
+	]
+}

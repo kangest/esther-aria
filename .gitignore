@@ -1,0 +1,101 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+.vs/
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj/
+*.xcworkspace/
+
+# Visual Studio
+.vscode/
+*.VC.db
+*.VC.VC.opendb
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+
+# Runtime files
+*.tmp
+*.temp
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Package Files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# API Keys and Secrets (IMPORTANT!)
+Config/APIKeys.ini
+Config/Secrets.ini
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Large binary assets (use Git LFS for these)
+*.uasset
+*.umap
+*.upk
+*.pak
+
+# Cache files
+DerivedDataCache/
+*.cache
+
+# Crash reports
+CrashReportClient/
+
+# Local configuration
+Config/Local*.ini
